@@ -1,0 +1,72 @@
+.clearFix:before,
+.clearFix:after {
+    display: table;
+    content: '';
+}
+
+.clearFix:after {
+    clear: both;
+}
+
+.sliderArea {
+	width: 980px;
+	height: 380px;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+.imageSlider {
+	position: relative;
+	left: 0;
+    padding: 0;
+}
+
+.bannerImg {
+	float: left;
+}
+
+ .bannerArea {
+	position: relative;
+	width: 980px;
+	margin: auto;
+	padding-top: 31px;
+}
+
+.paginate.current {
+	background-color: #4f8bec;
+}
+
+.prev {
+	position: absolute;
+	top: 129px;
+	left: -44px;
+}
+
+.next {
+	position: absolute;
+	top: 129px;
+	right: -44px;
+}
+
+.paginationCircle {
+	margin-bottom: 17px;
+	text-align: center;
+}
+
+.paginate  {
+	display: inline-block;
+}
+
+.paginate a {
+	display: block;
+	width: 8px;
+	height: 8px;
+	margin: 0 10px;
+	background-color: #ccc;
+	border-radius: 100%;
+}
+
+.paginate a.activeP {
+	background-color: #3071d8;
+}
+
