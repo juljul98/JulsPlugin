@@ -1,0 +1,58 @@
+.sliderArea {
+     position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.imageSlider {
+    width: 980px;
+    height: 380px;
+      padding: 0;
+}
+
+.imageSlider li {
+    list-style-type: none;
+    display: none;
+}
+
+.imageSlider li.active {
+    display: block;   
+}
+
+/* button previous and next */
+
+.prev a img {
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 0;
+}
+
+.next a img {
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    right: 0;
+}
+
+/* pagination */
+.pagination {
+	margin-bottom: 17px;
+	text-align: center;
+}
+
+.pagination li  {
+	display: inline-block;
+}
+
+.pagination li a {
+	display: block;
+	width: 8px;
+	height: 8px;
+	margin: 0 10px;
+	background-color: #ccc;
+	border-radius: 100%;
+}
+.pagination li.active a {
+	background-color: #3071d8;
+}
